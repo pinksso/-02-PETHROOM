@@ -2,7 +2,7 @@
 @media screen and (max-width:1850px) {
     /* main */
     main .title{
-        right: 10%;
+        right: 8%;
         width:400px;
     }
 
@@ -15,22 +15,56 @@
 
 
 /* ****@media screen and (max-width:1500px)**** */
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1550px) {
     /* main */
     main .title{
-        right: 5%;
+        right: 3%;
+    }
+
+    main .title a{
+        padding: 18px 70px;
     }
 }
 
 
 
 
-/* ****@media screen and (max-width:1315px)**** */
-@media screen and (max-width:1315px) {
+/* ****@media screen and (max-width:1360px)**** */
+@media screen and (max-width:1400px) {
     /* main */
+    main{
+        /* height: 900px; */
+        background: url(../img/t_main.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    main .logo{
+        position: absolute;
+        top:0;
+        right: 8%; 
+        padding: 20px 15px 15px 15px;
+    }
+
+    main img{
+        width:75px;
+    }
+
     main .title{
-        width: 350px;
-        right: 4%;
+        bottom:120px;
+        width:600px;
+        right: 50%;
+        transform: translateX(50%);
+        text-align: center;
+    }
+
+    main .title p{
+        padding-bottom: 25px;
+    }
+
+    main .title a{
+        margin: 0;
+        padding: 18px 90px;
     }
 }
 
@@ -65,41 +99,6 @@
 
 /* ****@media screen and (max-width:1200px)**** */
 @media screen and (max-width:1200px) {
-    /* main */
-    main{
-        /* height: 900px; */
-        background: url(../img/t_main.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-
-    main .logo{
-        position: absolute;
-        top:0;
-        right: 8%; 
-        padding: 20px 15px 15px 15px;
-    }
-
-    main img{
-        width:75px;
-    }
-
-    main .title{
-        bottom:120px;
-        width:600px;
-        right: 50%;
-        transform: translateX(50%);
-        text-align: center;
-    }
-
-    main .title p{
-        padding-bottom: 25px;
-    }
-
-    main .title a{
-        margin: 0;
-    }
-
     /* scroll */
     .scroll-down{
         display: none;
